@@ -1,6 +1,15 @@
 {
   "name": "pagetables",
   "version": "1.0.0",
+  "author": {
+    "name": "Sam Maosa",
+    "email": "maosa.sam@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/savannabits/pagetables"
+  },
+  "license": "MIT",
   "description": "Flexible server-side datatables using Laravel's default pagination with tailwindcss default styling.",
   "main": "dist/pagetables.ssr.js",
   "browser": "dist/pagetables.esm.js",
