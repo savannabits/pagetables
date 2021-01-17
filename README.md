@@ -11,6 +11,7 @@ Pagetables is a Flexible server-side datatables package for vue.js using Laravel
 - Laravel-like Pagination
 - Jump to any page of the paginated data at any point.
 
+![screenshot-pagetables](https://user-images.githubusercontent.com/5610289/104843772-63c7fe80-58dd-11eb-8278-85e4da669b81.png)
 ## Installation
 ```shell
 npm install pagetables
