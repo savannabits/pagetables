@@ -5,18 +5,13 @@ name: NPM Publish
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
+  release:
+    types:
+      - "published"
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   prerelease:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-18.04
         steps:
             - uses: actions/checkout@v1
             - name: Make stable release to npm

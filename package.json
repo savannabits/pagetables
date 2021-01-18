@@ -1,6 +1,6 @@
 {
   "name": "pagetables",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Sam Maosa",
     "email": "maosa.sam@gmail.com"
@@ -52,6 +52,10 @@
   },
   "peerDependencies": {
     "vue": "^2.6.11"
+  },
+  "publishConfig": { 
+    "access": "public", 
+    "branches": ["master"] 
   },
   "engines": {
     "node": ">=10"
