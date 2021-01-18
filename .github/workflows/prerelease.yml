@@ -10,7 +10,7 @@ on:
 
 jobs:
     prerelease:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-18.04
         steps:
             - uses: actions/checkout@v1
             - name: Make prerelease to npm
@@ -18,3 +18,4 @@ jobs:
               with:
                   type: prerelease
                   token: ${{ secrets.NPM_TOKEN }}
+                  
