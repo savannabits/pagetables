@@ -459,3 +459,20 @@ In order to enable the server perform table actions such as searching, ordering 
 }
 ```
 You can pass these as parameters to the server and handle them manually on the server side for searching, sorting and pagination. However, the **[Laravel Pagetables Package](https://github.com/savannabits/laravel-pagetables)** does all this for you out of the box. All you have to do is pass the parameters as they are and Laravel Pagetables will handle the rest.
+
+## Contributing
+
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+
+## Security Vulnerabilities
+
+Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+
+## Credits
+
+- [Sam Arossi Maosa](https://github.com/coolsam726)
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
